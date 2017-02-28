@@ -14,7 +14,11 @@ function min(numbers){
 }
 
 function max(numbers){
-	var largest = 0;
+	var j = 0;
+	var largest;
+		if (typeof smallest === 'undefined'){
+			largest = numbers[i];
+		}
 		while(j < numbers.length) {
 		if (numbers[j] > largest) {
 			largest = numbers[j];
